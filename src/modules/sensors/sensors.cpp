@@ -165,7 +165,7 @@ public:
 	int		start();
 
 private:
-	static const unsigned _rc_max_chan_count = RC_CHANNELS_MAX;	/**< maximum number of r/c channels we handle */
+	static const unsigned _rc_max_chan_count = RC_INPUT_MAX_CHANNELS;	/**< maximum number of r/c channels we handle */
 
 	hrt_abstime	_rc_last_valid;		/**< last time we got a valid RC signal */
 
